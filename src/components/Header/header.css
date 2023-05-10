@@ -4,42 +4,73 @@
     --charcoal: #3E505B;
     --dark-slate-grey: #26413C;
     --erie-black: #1A1D1A;
-  }
+}
 
 body {
     background-color: var(--main-bg-color);
 }
-.header{
+
+a {
+    font-size: 20px;
+    font-family: Carlito, serif;
+
+}
+
+.header {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     display: flex;
     gap: 10px;
+    margin-top: 5vh;
     justify-content: space-between;
 }
 
-.headertitle{
+.headertitle {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     margin-left: 5vw;
     font-family: Carlito, serif;
 }
 
+.headerbuttoncontainer {
+    display: flex;
+    margin: 0;
+}
+
 .signinbutton {
     padding: 10px;
     font-size: 18px;
-    margin-right: 5vw;
-    margin-top: 20px;
+    margin: none;
     border-radius: 7px;
     background-color: var(--charcoal);
     color: var(--main-text-color);
     opacity: 0.5;
-    
+
 }
 
 .signinbutton:hover {
-color: var(--main-text-color);
-background-color: var(--charcoal);
-border: var(--main-text-color) solid 1px;
-opacity: 1;
-cursor: pointer;
+    color: var(--main-text-color);
+    background-color: var(--charcoal);
+    border: var(--main-text-color) solid 1px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.registerbutton {
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 5vw;
+    border-radius: 7px;
+    background-color: var(--charcoal);
+    color: var(--main-text-color);
+    opacity: 0.5;
+
+}
+
+.registerbutton:hover {
+    color: var(--main-text-color);
+    background-color: var(--charcoal);
+    border: var(--main-text-color) solid 1px;
+    opacity: 1;
+    cursor: pointer;
 }

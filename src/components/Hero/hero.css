@@ -1,0 +1,30 @@
+:root {
+    --main-bg-color: #03120E;
+    --main-text-color: #8AB0AB;
+    --charcoal: #3E505B;
+    --dark-slate-grey: #26413C;
+    --erie-black: #1A1D1A;
+}
+
+.herocontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.herotext h2 {
+   display: flex;
+    font-family: Carlito, serif;
+    font-weight: 200;
+    font-style: bold;
+    box-sizing: content-box;
+}
+
+.herotextmoney {
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+
+.herotextenvironment {
+    font-weight: 400;
+    color: var(--main-text-color);
+}
