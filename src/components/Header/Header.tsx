@@ -6,10 +6,12 @@ export default function Header() {
         <>
             <div className='header'>
                 <h1 className='headertitle'>EV-lution</h1>
+                <div className='headerlinkscontainer'>
                 <a href=''>Home</a>
                 <a href=''>About</a>
                 <a href=''>Vehicle Models</a>
                 <a href=''>Contact</a>
+                </div>
                 <div className='headerbuttoncontainer'>
                     <div className='signin-container'>
                         <button type="button" className="btn btn-success signinbutton">Sign In</button>

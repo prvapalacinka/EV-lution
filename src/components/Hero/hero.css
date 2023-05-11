@@ -8,15 +8,22 @@
 
 .herocontainer {
     display: flex;
-    justify-content: center;
-}
+    width: 80%;
+    table-layout: fixed;
+    margin-right: 140px;
+    margin-left: 140px; 
 
+}
+.herotext {
+    display: table-cell;
+    text-align: left;
+}
 .herotext h2 {
    display: flex;
     font-family: Carlito, serif;
     font-weight: 200;
     font-style: bold;
-    box-sizing: content-box;
+ 
 }
 
 .herotextmoney {
@@ -27,4 +34,29 @@
 .herotextenvironment {
     font-weight: 400;
     color: var(--main-text-color);
+}
+
+.heroimagesection {
+
+    border-radius: 20px;
+    margin-left: 10pxw;
+    align-items: left;
+
+}
+
+.herobuttongroup {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+    
+}
+
+.bookridebutton {
+    margin-right: 10px;
+    padding: 10px;
+}
+.learnmorebutton {
+    margin-right: 10px;
+    padding: 10px;
 }
