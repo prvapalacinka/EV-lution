@@ -4,13 +4,16 @@ import './header.css'
 export default function Header() {
     return (
         <>
-            <div className='header'>
-                <h1 className='headertitle'>EV-lution</h1>
+            <div className=' navbar navbar-expand-m header'>
+
+                <a className='navbar-brand headertitle' href='#'><img src='../../src/assets/images/logo.png' alt='Logo' width="30" height="24" className="d-inline-block align-text-top"></img>EV-lution</a>
+
+
                 <div className='headerlinkscontainer'>
-                <a href=''>Home</a>
-                <a href=''>About</a>
-                <a href=''>Vehicle Models</a>
-                <a href=''>Contact</a>
+                    <a href=''>Home</a>
+                    <a href=''>About</a>
+                    <a href=''>Vehicle Models</a>
+                    <a href=''>Contact</a>
                 </div>
                 <div className='headerbuttoncontainer'>
                     <div className='signin-container'>
@@ -21,9 +24,6 @@ export default function Header() {
                     </div>
                 </div>
 
-            </div>
-            <div className='imgcontainer'>
-                <img src='https://assets1.lottiefiles.com/private_files/lf30_skwgamub.json'></img>
             </div>
         </>
     )
