@@ -6,14 +6,24 @@ export default function Header() {
         <>
             <div className=' navbar navbar-expand-m header'>
 
-                <a className='navbar-brand headertitle' href='#'><img src='../../src/assets/images/logo.png' alt='Logo' width="30" height="24" className="d-inline-block align-text-top"></img>EV-lution</a>
+                <a className='navbar-brand headertitle' href='#'>
+                    <img src='../../src/assets/images/logo.png' alt='Logo' width="30" height="24" className="d-inline-block align-text-top headerlogo"></img>EV-lution</a>
 
 
-                <div className='headerlinkscontainer'>
-                    <a href=''>Home</a>
-                    <a href=''>About</a>
-                    <a href=''>Vehicle Models</a>
-                    <a href=''>Contact</a>
+                <div className='navbar-expand-md headerlinkscontainer' id="navbarNavAltMarkup">
+                    <div className='container-fluid'>
+                        <ul className="navbar">
+
+                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+
+
+                            <a className="nav-link" href="#">About us</a>
+
+
+                            <a className="nav-link" href="#">Car Models</a>
+
+                        </ul>
+                    </div>
                 </div>
                 <div className='headerbuttoncontainer'>
                     <div className='signin-container'>

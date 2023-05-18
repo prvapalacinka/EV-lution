@@ -26,13 +26,29 @@ a {
 }
 
 .headertitle {
+    font-size: 45px;
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     margin-left: 10vw;
     font-family: Carlito, serif;
+    transition: 0.3s
+}
+.headertitle:hover {
+    color: var(--dark-slate-grey);
+    
+    transition-delay: 20ms;
+   
+}
+
+.headerlogo {
+    display: block;
+    width: 50px;
+    height: 50px;
 }
 
 .headerlinkscontainer {
+    font-size: 20px;
+    color:var(--main-text-color);
     width: 600px;
     display: flex;  
     justify-content: space-between;
@@ -41,6 +57,10 @@ a {
 }
 .headerlinkscontainer a {
     margin: 20px;
+    transition: 0.3s
+}
+.headerlinkscontainer a:hover {
+  color: var(--dark-slate-grey);
 }
 .headerbuttoncontainer {
     display: flex;

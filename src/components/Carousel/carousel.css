@@ -1,0 +1,16 @@
+:root {
+    --main-bg-color: #03120E;
+    --main-text-color: #8AB0AB;
+    --charcoal: #3E505B;
+    --dark-slate-grey: #26413C;
+    --erie-black: #1A1D1A;
+}
+
+.carousel-container {
+    color: var(--main-text-color);
+    margin-top: 20vh;
+}
+
+.carousel-row-left {
+    margin-right: 20px;
+}
